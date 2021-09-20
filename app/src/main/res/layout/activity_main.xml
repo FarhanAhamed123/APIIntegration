@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="38dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="GET DATA"
+        android:textColor="#1B2977"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="38dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="POST DATA"
+        android:textColor="#1B2977"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="38dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="PUT/UPDATE DATA"
+        android:textColor="#1B2977"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="38dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="DELETE DATA"
+        android:textColor="#1B2977"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/btn3"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
