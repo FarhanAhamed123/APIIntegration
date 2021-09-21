@@ -38,11 +38,11 @@ class MainActivity5 : AppCompatActivity() {
 
             // Do the DELETE request and get response
 
-            val response = service.deleteDataFromServe(43)//important
+            val response = service.deleteDataFromServe(54)//important
             withContext(Dispatchers.Main) {
                 if (response.isSuccessful) {
 
-                    // Convert raw JSON to pretty JSON using GSON library
+                     // Convert raw JSON to pretty JSON using GSON library
                     val gson = GsonBuilder().setPrettyPrinting().create()
                     val dataDeleted = gson.toJson(
                         JsonParser.parseString(

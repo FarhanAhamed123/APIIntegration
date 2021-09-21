@@ -39,9 +39,9 @@ class MainActivity3 : AppCompatActivity() {
 
         // Create JSON using JSONObject
         val jsonObject = JSONObject()
-        jsonObject.put("id", "5")
-        jsonObject.put("title", "this is the title")
-        jsonObject.put("body", "this is the body")
+//        jsonObject.put("id", "15")
+        jsonObject.put("title", "this is the new title")
+        jsonObject.put("body", "this is the new body")
 
         // Convert JSONObject to String
         val jsonObjectString = jsonObject.toString()
